@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(45, 223, 92);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: -50px;
+    position: fixed;
+    z-index: 1;
+}
+
+header div.pagecn{
+    float: left;
+}
+
+header div.pagecn img{
+    width: 40px;
+}
+
+header div ul{
+    float: right;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+header div ul a{
+    color: rgb(14, 79, 31);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header div ul a:hover{
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+span{
+    background-color: rgb(255, 27, 104);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*FREEDOM*/
+
+div.freedomPic{
+    width: 100%;
+    height: 250px;
+    background-image: url("./images/freedom.jpg");
+    background-size: cover;
+    background-position: 100% -142px;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p.text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 200px;
+    left: 30px;
+}
+
+p.text2{
+    color: rgb(45, 223, 92);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*MAIN*/
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 100px;
+}
+
+main div.firstmain{
+    background-color: rgb(213, 255, 220);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.amount{
+    color: rgb(14, 79, 31);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payment{
+    color: rgb(133, 133, 133);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.available{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list{
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin-left: -25px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(14, 79, 31);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+main div.secondmain{
+    background-color: rgb(25, 184, 76);
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+.recommended{
+    background-color: white;
+    color: rgb(25, 184, 76);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+.amount1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payment1{
+    color: rgb(14, 79, 31);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.available1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    margin-left: -25px;
+}
+
+main div.thirdmain{
+    background-color: rgb(213, 255, 220);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*SECTION*/
+
+section{
+    background-color: rgb(255, 27, 104);
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+section p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icn1{
+    float: left;
+}
+
+.icn2{
+    float: center;
+    
+}
+
+.icn3{
+    float: left;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer div{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
