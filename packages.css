@@ -248,16 +248,20 @@ footer div{
     }
     .secondcontainer{
         width: 400px;
+        float: left;
     }
     .plan2{
         font-size: 20px;
+        float: left;
     }
     .info2{
         font-size: 20px;
+        float: left;
     }
     .details2{
         width: 350px;
         font-size: 15px;
+        float: left;
     }
     .thirdcontainer{
         width: 400px;
