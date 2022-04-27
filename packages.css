@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url("./images/plans-background.jpg");
+    background-size: cover;
+    background-position: 50% -30px;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    background-color: rgb(45, 223, 92);
+    max-height: 60px;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section img{
+    width: 25%;
+    margin-left: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section ul li a{
+    color: rgb(14, 79, 31);
+    font-weight: 700;
+}
+
+section ul li:hover{
+    background-color: rgb(255, 27, 104);
+
+}
+
+section ul li:hover a{
+    color: white;
+}
+
+.active{
+    background-color: rgb(255, 27, 104);
+}
+
+.active a{
+    color: white;
+}
+
+section .fa{
+    display: none;
+}
+
+/*THE DIVS*/
+
+.firstcontainer{
+    display: inline-block;
+    width: 1100px;
+    height: 270px;
+    border: 2px solid rgb(14, 79, 31);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(213, 255, 220);
+}
+
+.recommend{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(255, 84, 84);
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.plan{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.info{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(134, 128, 128, 0.589);
+    margin-bottom: 25px;
+}
+
+.details{
+    display: inline-block;
+    width: 1000px;
+    border: 1px solid rgb(14, 79, 31);
+    background-color: white;
+    color: rgb(14, 79, 31);
+    height: 70px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.secondcontainer{
+    display: inline-block;
+    width: 1100px;
+    height: 270px;
+    border: 2px solid rgb(14, 79, 31);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(213, 255, 220);
+    float: right;
+}
+
+.plan2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 53px;
+}
+
+.info2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(134, 128, 128, 0.589);
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 53px;
+}
+
+.details2{
+    display: inline-block;
+    width: 1000px;
+    border: 1px solid rgb(14, 79, 31);
+    background-color: white;
+    color: rgb(14, 79, 31);
+    height: 70px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+.thirdcontainer{
+    display: inline-block;
+    width: 1100px;
+    height: 270px;
+    border: 2px solid rgb(14, 79, 31);
+    padding: 20px;
+    background-color: rgb(14, 79, 31);
+    margin-bottom: 50px;
+}
+
+.plan3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.info3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(206, 202, 202, 0.959);
+    margin-bottom: 25px;
+}
+
+.details3{
+    display: inline-block;
+    width: 1000px;
+    border: 1px solid rgb(14, 79, 31);
+    background-color: white;
+    color: rgb(14, 79, 31);
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer div{
+    color: rgb(184, 180, 180);
+    font-size: 20px;
+}
+
+@media (max-width: 700px){
+    nav{
+        padding: 10px;
+        position: absolute;
+        right: -200px;
+        top: 0;
+        height: 400px;
+        background-color: rgb(45, 223, 92);
+        border: 1px solid rgb(238, 226, 226);
+        text-align: left;
+    }
+    nav ul li{
+        display: block;
+        margin: 20px;
+    }
+    section .fa{
+        display: block;
+        width: 30px;
+    }
+    .firstcontainer{
+        width: 400px;
+    }
+    .plan{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .details{
+        width: 350px;
+        font-size: 14px;
+    }
+    .secondcontainer{
+        width: 400px;
+    }
+    .plan2{
+        font-size: 20px;
+    }
+    .info2{
+        font-size: 20px;
+    }
+    .details2{
+        width: 350px;
+        font-size: 15px;
+    }
+    .thirdcontainer{
+        width: 400px;
+    }
+    .plan3{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .info3{
+        font-size: 20px;
+    }
+    .details3{
+        width: 350px;
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

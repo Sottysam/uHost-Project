@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: rgb(45, 223, 92);
+    max-height: 60px;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section img{
+    width: 25%;
+    margin-left: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section ul li a{
+    color: rgb(14, 79, 31);
+    font-weight: 700;
+}
+
+section ul li:hover{
+    background-color: rgb(255, 27, 104);
+
+}
+
+section ul li:hover a{
+    color: white;
+}
+
+.active{
+    background-color: rgb(255, 27, 104);
+}
+
+.active a{
+    color: white;
+}
+
+section .fa{
+    display: none;
+}
+
+/* FIRSTPIC */
+
+.firstpics{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+}
+
+.firstimg img{
+    width: 700px;
+}
+
+h3{
+    color: rgb(255, 84, 84);
+    font-size: 30px;
+}
+
+.info{
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+
+.info a{
+    color: rgb(204, 204, 204);
+}
+
+.dets{
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.secondpics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+}
+
+.secondimg img{
+    width: 700px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer div{
+    color: rgb(184, 180, 180);
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px){
+    nav{
+        padding: 10px;
+        position: absolute;
+        right: -200px;
+        top: 0;
+        height: 400px;
+        background-color: rgb(45, 223, 92);
+        border: 1px solid rgb(238, 226, 226);
+        text-align: left;
+    }
+    nav ul li{
+        display: block;
+        margin: 20px;
+    }
+    section .fa{
+        display: block;
+        width: 30px;
+    }
+    .firstpics{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .firstimg img{
+        width: 450px;
+    }
+    .firstdetails{
+        width: 400px;
+    }
+    .seconddetails{
+        width: 400px;
+    }
+    .secondpics{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .secondimg img{
+        width: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

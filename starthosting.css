@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: rgb(45, 223, 92);
+    max-height: 60px;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section img{
+    width: 25%;
+    margin-left: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section ul li a{
+    color: rgb(14, 79, 31);
+    font-weight: 700;
+}
+
+section ul li:hover{
+    background-color: rgb(255, 27, 104);
+
+}
+
+section ul li:hover a{
+    color: white;
+}
+
+.active{
+    background-color: rgb(255, 27, 104);
+}
+
+.active a{
+    color: white;
+}
+
+section .fa{
+    display: none;
+}
+
+.freedom{
+    height: 250px;
+    background-image: url("./images/freedom.jpg");
+    background-size: cover;
+    background-position: 100% -142px;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+ div.text{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 190px;
+    left: 30px;
+}
+
+.text2{
+    color: rgb(45, 223, 92);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 100px;
+}
+
+main div.firstmain{
+    background-color: rgb(213, 255, 220);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.amount{
+    color: rgb(14, 79, 31);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payment{
+    color: rgb(133, 133, 133);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.available{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list{
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.list li{
+    display: block;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(14, 79, 31);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+main div.secondmain{
+    background-color: rgb(25, 184, 76);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+.recommended{
+    background-color: white;
+    color: rgb(25, 184, 76);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+}
+
+.amount1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payment1{
+    color: rgb(14, 79, 31);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.available1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.list1 li{
+    display: block;
+}
+
+main div.thirdmain{
+    background-color: rgb(213, 255, 220);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* SECTION */
+
+.pink{
+    background-color: rgb(255, 27, 104);
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.pinktext{
+    color: white;
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    color: rgb(184, 180, 180);
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer div{
+    color: rgb(184, 180, 180);
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 768px){
+    nav{
+        padding: 10px;
+        position: absolute;
+        right: -200px;
+        top: 0;
+        height: 400px;
+        background-color: rgb(45, 223, 92);
+        border: 1px solid rgb(238, 226, 226);
+        text-align: left;
+    }
+    nav ul li{
+        display: block;
+        margin: 20px;
+    }
+    section .fa{
+        display: block;
+        width: 30px;
+    }
+
+    .freedom{
+        margin-top: 60px;
+        background-position: 100% -30px;
+    }
+
+    div.text{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+    main div.firstmain{
+        width: 250px;
+        height: auto;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+    }
+    main div.secondmain{
+        width: 250px;
+        height: auto;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+    }
+    main div.thirdmain{
+        width: 250px;
+        height: auto;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.781);
+    }
+    .pink{
+        height: auto;
+    }
+    .pinktext{
+        font-size: 20px;
+        margin-left: -20px;
+        font-weight: bold;
+        color: rgb(252, 240, 240);
+    }
+    .flex{
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .ftn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        color: rgb(184, 180, 180);
+        font-weight: bold;
+    }
+    .ftn2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        color: rgb(184, 180, 180);
+        font-weight: bold;
+    }
+    .ftn3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        color: rgb(184, 180, 180);
+        font-weight: bold;
+    }
+    footer div{
+        color: rgb(184, 180, 180);
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
