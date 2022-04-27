@@ -157,20 +157,20 @@ footer div{
         gap: 30px;
     }
     .firstimg img{
-        width: 450px;
+        width: 400px;
     }
     .firstdetails{
-        width: 400px;
+        width: 300px;
     }
     .seconddetails{
-        width: 400px;
+        width: 300px;
     }
     .secondpics{
         flex-direction: column;
         gap: 30px;
     }
     .secondimg img{
-        width: 450px;
+        width: 400px;
     }
 }
 
