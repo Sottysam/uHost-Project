@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
-    overflow-x: hidden;
+
 }
 
 header{
@@ -144,7 +144,7 @@ footer div{
         background-color: rgb(45, 223, 92);
         border: 1px solid rgb(238, 226, 226);
         text-align: left;
-        z-index: 20;
+
     }
     nav ul li{
         display: block;
