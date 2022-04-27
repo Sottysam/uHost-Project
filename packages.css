@@ -198,6 +198,7 @@ section .fa{
 
 footer{
     background-color: black;
+    postion: relative;
     left: 0;
     right: 0;
     height: 50px;
